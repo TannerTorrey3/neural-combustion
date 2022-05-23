@@ -3,7 +3,7 @@ const canvas = document.getElementById("canvas");
 canvas.width = 400;
 
 const cntx = canvas.getContext("2d");
-const car = new Car(200,window.innerHeight/2,30,50);
+const car = new Car(200,window.innerHeight/2,60,120);
 car.draw(cntx);
 
 animate();
